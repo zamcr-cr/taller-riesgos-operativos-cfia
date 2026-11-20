@@ -1,18 +1,18 @@
 <!doctype html>
-<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Taller de riesgos operativos</title>
+<html lang="es"><head><meta charset="utf-8"><meta name="referrer" content="no-referrer"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Taller de riesgos operativos</title>
 <style>
 :root{--navy:#0e2841;--red:#b11916;--gold:#fab627;--ink:#142c43;--muted:#506479;--line:#dbe3eb;--paper:#f2f5f8}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.5 system-ui,sans-serif}header{background:var(--navy);color:white;border-bottom:3px solid var(--gold)}.top,main,.tabs,.footer{max-width:1280px;margin:auto;padding:0 32px}.top{display:flex;justify-content:space-between;align-items:center;gap:20px;min-height:78px}.brand{display:flex;gap:13px;align-items:center;font-weight:750}.mark{border:1px solid #71879b;border-radius:8px;width:39px;height:39px;display:grid;place-items:center;color:var(--gold)}.top small{color:#d4dfeb;display:block}.team{display:flex;gap:8px;align-items:center}.team select{background:#1e3a55;color:white;border-color:#658095;max-width:210px}.team button{background:white;border-color:white}.tabs{display:flex;gap:6px;overflow:auto}.nav{background:white;border-bottom:1px solid var(--line)}.tabs button{border:0;border-bottom:3px solid transparent;background:none;border-radius:0;padding:15px 16px;color:var(--muted);white-space:nowrap}.tabs button[aria-current=true]{border-color:var(--red);color:var(--navy)}main{padding-top:28px;padding-bottom:36px}.hero{background:var(--navy);background-image:radial-gradient(ellipse at 100% 100%,#254d71,transparent 70%);color:white;border-radius:15px;padding:28px 32px;border-left:5px solid var(--red);display:flex;align-items:center;justify-content:space-between;gap:20px}.eyebrow{color:var(--gold);font-size:.81rem;font-weight:750;text-transform:uppercase;letter-spacing:.12em}h1,h2,h3,p{margin:0}h1{font-size:clamp(1.8rem,4vw,2.65rem);letter-spacing:-.04em;line-height:1.15;margin:6px 0 9px}h2{font-size:1.23rem;line-height:1.3}h3{font-size:1.04rem}.hero p{color:#dce6ef}.section{margin-top:24px}.cards,.split,.grid,.steps{display:grid;gap:16px}.cards{grid-template-columns:repeat(4,minmax(0,1fr))}.split{grid-template-columns:1.08fr 1fr}.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.steps{grid-template-columns:repeat(3,1fr)}.card{background:white;border:1px solid var(--line);border-radius:12px;padding:19px;min-width:0}.metric{font-size:2rem;font-weight:800;line-height:1.15;margin-top:6px}.muted,.card small{color:var(--muted)}small{font-size:.82rem}.row{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}.stack>*+*{margin-top:12px}.btn,button,select,input,textarea{font:inherit}button,.btn{padding:8px 13px;border:1px solid var(--line);border-radius:7px;background:white;color:var(--navy);cursor:pointer;font-size:.9rem;font-weight:700;text-decoration:none}button:hover,.btn:hover{filter:brightness(.95)}button.primary{background:var(--red);border-color:var(--red);color:white}.hero button{background:var(--gold);border-color:var(--gold);color:var(--navy)}input,textarea,select{border:1px solid #aab9c7;border-radius:7px;padding:8px 10px;background:white;color:var(--ink);min-width:0;width:100%}input:focus,textarea:focus,select:focus,button:focus-visible,a:focus-visible{outline:3px solid #3581bc;outline-offset:2px}textarea{min-height:74px;resize:vertical}label{display:block;font-weight:680;font-size:.9rem}label input,label select,label textarea{display:block;margin-top:4px;font-weight:400}.full{grid-column:1/-1}.table{overflow-x:auto}table{width:100%;border-collapse:collapse;text-align:left}th,td{border-bottom:1px solid var(--line);padding:11px 8px}th{font-size:.82rem;color:var(--muted)}td{font-size:.91rem}.badge{display:inline-block;padding:3px 8px;border-radius:5px;font-size:.8rem;font-weight:750;white-space:nowrap}.bajo{background:#dcf4e8;color:#126046}.medio{background:#fff1c8;color:#714a00}.alto{background:#ffe1c3;color:#823900}.critico{background:#f9d6da;color:#8a1c29}.pendiente{background:#edf1f5;color:#405469}.matrix{table-layout:fixed;text-align:center;border-collapse:separate;border-spacing:4px}.matrix th,.matrix td{border:0;padding:0}.matrix button{background:none;border:0;width:100%;padding:7px 0;color:inherit}.matrix td{border-radius:5px}.matrix b{display:block;font-size:.74rem}.legend{display:flex;flex-wrap:wrap;gap:6px}.filters{display:grid;grid-template-columns:2fr 1fr 1fr;gap:10px}.note{background:#eef4fa;border-left:3px solid #6087ae;padding:10px 13px;border-radius:5px;color:var(--navy)}.preview{background:#f5f8fb;padding:12px;border-radius:8px;overflow-wrap:anywhere}.empty{padding:22px 12px;color:var(--muted);text-align:center}.footer{padding-bottom:26px;color:var(--muted);font-size:.83rem}dialog{width:min(830px,calc(100vw - 26px));max-height:92vh;border:0;border-radius:14px;padding:0;color:var(--ink);box-shadow:0 15px 56px #10284055}dialog::backdrop{background:#0e2841ad}.dialogtop,.dialogfoot{background:white;padding:15px 22px;position:sticky;z-index:1}.dialogtop{top:0;border-bottom:1px solid var(--line)}.dialogfoot{bottom:0;border-top:1px solid var(--line)}.body{padding:18px 22px}.grouped{border:1px solid var(--line);border-radius:9px;padding:15px;margin:0;min-width:0}.grouped legend{font-weight:750;padding:0 7px}.score{font-variant-numeric:tabular-nums}.danger{color:#991818}.filterMatrix{width:auto}.status{min-height:1.5em}.risktitle{font-weight:750}.guide li{margin:.45em 0}.footer a,.guide a{color:#195381}.hidden{display:none!important}@media(max-width:790px){.top,main,.tabs,.footer{padding-left:16px;padding-right:16px}.split{grid-template-columns:1fr}.cards{grid-template-columns:repeat(2,1fr)}.steps{grid-template-columns:1fr}.top{align-items:flex-start;padding-top:12px;padding-bottom:12px;flex-wrap:wrap}.hero{padding:20px;flex-wrap:wrap}}@media(max-width:480px){.grid,.filters{grid-template-columns:1fr}.card{padding:14px}.team select{max-width:145px}}
-</style></head>
-<body><header><div class="top"><div class="brand"><span class="mark" aria-hidden="true">▥</span><div>Riesgos operativos<small>Taller de Auditoría Interna · CFIA</small></div></div><div class="team"><select id="team" aria-label="Equipo activo"></select><button id="newTeam">+ Equipo</button></div></div></header>
-<div class="nav"><nav class="tabs" aria-label="Secciones" id="nav"></nav></div><main id="main"></main><div class="footer"><span id="status" class="status" role="status"></span><div>Demostración didáctica · Guardado en este navegador · Utiliza datos ficticios</div></div>
-<dialog id="dialog"><form id="editor"><div class="dialogtop row"><h2 id="dialogTitle"></h2><button type="button" id="close" aria-label="Cerrar formulario">✕</button></div><div class="body stack" id="fields"></div><div class="dialogfoot row"><button type="button" id="remove" class="danger">Eliminar</button><div><button type="button" id="cancel">Cancelar</button> <button type="submit" class="primary" id="submit">Guardar</button></div></div></form></dialog>
-<input type="file" accept=".json,application/json" id="file" hidden>
+[hidden]{display:none!important}.collaboration{margin-bottom:18px}.online-form{display:flex;flex-wrap:wrap;align-items:end;gap:10px}.online-form label{flex:1 1 180px}.online-teams{display:grid;gap:8px}#editorError:empty{display:none}</style></head>
+<body><header><div class="top"><div class="brand"><span class="mark" aria-hidden="true">▥</span><div>Riesgos operativos<small>Taller de Auditoría Interna · CFIA</small></div></div><div class="team"><select id="team" aria-label="Equipo activo"></select></div></div></header>
+<div class="nav"><nav class="tabs" aria-label="Secciones" id="nav"></nav></div><div class="top" style="display:block;min-height:0;padding-top:16px"><section id="collaboration" class="card stack collaboration" aria-label="Capacitación en línea"></section></div><main id="main"></main><div class="footer"><span id="status" class="status" role="status"></span><div>Demostración didáctica · Sesiones y equipos en línea · Utiliza datos ficticios</div></div>
+<dialog id="dialog"><form id="editor"><div class="dialogtop row"><h2 id="dialogTitle"></h2><button type="button" id="close" aria-label="Cerrar formulario">✕</button></div><div class="body stack" id="fields"></div><div class="dialogfoot row"><div id="editorError" class="danger full" role="alert" style="width:100%"></div><button type="button" id="remove" class="danger">Eliminar</button><div><button type="button" id="cancel">Cancelar</button> <button type="submit" class="primary" id="submit">Guardar</button></div></div></form></dialog>
+
+<script src="config.js"></script>
 <script>
 'use strict';
 const $=id=>document.getElementById(id);
-const key='taller-riesgos-cfia-v1';
 const id=()=>globalThis.crypto?.randomUUID?.()??Math.random().toString(36).slice(2)+Date.now();
-const esc=(value='')=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[c]);
+const esc=(value='')=>(typeof value==='string'||typeof value==='number'?String(value):'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[c]);
 const dims=['Económico','Legal','Reputacional','Continuidad'];
 const factors=['Procesos','Personas','Sistemas','Eventos externos'];
 const strategies=['Evitar','Reducir','Compartir','Aceptar'];
@@ -39,13 +39,9 @@ function example(){
 }
 function team(name,useExample){return {id:id(),name,threshold:9,...(useExample?example():{processes:[],risks:[]})};}
 function initial(){const t=team('Caso de práctica',true);return {active:t.id,teams:[t]};}
-let data;try{data=JSON.parse(localStorage.getItem(key))||initial();}catch{data=initial();}
+let data;
 let tab=0, stage='res', filters={query:'',process:'',level:'',cell:''}, edit;
 const current=()=>data.teams.find(t=>t.id===data.active)||data.teams[0];
-function persist(message){
- try{localStorage.setItem(key,JSON.stringify(data));$('status').textContent=message||'Cambios guardados.';}
- catch{$('status').textContent='El navegador no permite guardar. Exporta el ejercicio antes de cerrar.';}
-}
 const options=(values,selected)=>values.map(v=>{const [key,label]=Array.isArray(v)?v:[v,v];return '<option value="'+esc(key)+'" '+(String(key)===String(selected)?'selected':'')+'>'+esc(label)+'</option>';}).join('');
 const processName=(t,r)=>t.processes.find(p=>p.id===r.process)?.name||'';
 const attr=(key,value)=>' data-'+key+'="'+esc(value)+'"';
@@ -68,7 +64,7 @@ function panel(t){
  '<div class="section cards">'+metrics.map(([label,value])=>'<article class="card"><small>'+label+'</small><div class="metric">'+value+'</div></article>').join('')+'</div><div class="section split">'+matrix(t)+
  '<section class="card stack"><div class="row"><h2>Prioridades del equipo</h2>'+button('Ajustar umbral','criteria')+'</div><p class="muted">Umbral didáctico del equipo <strong>'+t.threshold+' de 25</strong>. Los puntajes superiores requieren discusión.</p>'+
  (above.length?above.map(r=>'<div class="row preview"><span>'+esc(r.title)+'</span>'+badge(score(r,'res').total)+button('Abrir ficha','risk',attr('id',r.id))+'</div>').join(''):'<p class="note">No hay riesgos residuales valorados por encima del umbral.</p>')+
- '<hr><h3>Ejercicio del grupo</h3><p class="muted">Elijan un proceso, acuerden las calificaciones y expliquen qué evidencia necesitarían para confirmar el residual. Exporten la ficha del equipo para la puesta en común.</p><div class="row">'+button('Exportar equipo','export')+button('Importar ejercicio','import')+'</div></section></div>';
+ '<hr><h3>Ejercicio del grupo</h3><p class="muted" data-online-copy>Elijan un proceso, acuerden las calificaciones y expliquen qué evidencia necesitarían para confirmar el residual.</p></section></div>';
 }
 function processPage(t){
  return hero('Alcance y contexto','Procesos del equipo','Registra qué hace el área, qué objetivo busca y de qué recursos depende.',button('+ Nuevo proceso','addProcess'))+
@@ -93,7 +89,7 @@ function inventory(t){
 }
 function guide(){
  return hero('Material de facilitación','Guía del taller','Cada grupo trabaja en su equipo y entrega un archivo de su ejercicio.')+
- '<div class="section split guide"><section class="card stack"><h2>Dinámica por equipos · 30 minutos</h2><ol><li><strong>5 min.</strong> Crea un equipo con el nombre del grupo. Designen una persona para registrar los acuerdos y otra para presentar.</li><li><strong>7 min.</strong> Registren un proceso de su área y redacten un riesgo con causa, evento y consecuencia.</li><li><strong>8 min.</strong> Valoren el inherente, revisen los controles y valoren el residual actual. Comparen ambos con el umbral.</li><li><strong>7 min.</strong> Elijan una respuesta, asignen responsable y fecha y estimen el residual esperado.</li><li><strong>3 min.</strong> Exporten el ejercicio. En la puesta en común, el facilitador puede importarlo desde el panel y abrir cada ficha.</li></ol><p class="note">Caso de práctica: P4 × I5 = 20 sin controles, P2 × I5 = 10 con MFA y P2 × I4 = 8 con el límite previsto. Para verificar el último cambio, simulen evidencia de implementación y reevalúen el residual actual.</p></section>'+
+ '<div class="section split guide"><section class="card stack"><h2>Dinámica por equipos · 30 minutos</h2><div><ol><li><strong>5 min.</strong> Abre el enlace que te dio el facilitador. Designen una persona para registrar los acuerdos y otra para presentar.</li><li><strong>7 min.</strong> Registren un proceso de su área y redacten un riesgo con causa, evento y consecuencia.</li><li><strong>8 min.</strong> Valoren el inherente, revisen los controles y valoren el residual actual. Comparen ambos con el umbral.</li><li><strong>7 min.</strong> Elijan una respuesta, asignen responsable y fecha y estimen el residual esperado.</li><li><strong>3 min.</strong> Comprueben que los cambios estén guardados en línea. El facilitador seleccionará cada equipo durante la puesta en común.</li></ol></div><p class="note">Caso de práctica: P4 × I5 = 20 sin controles, P2 × I5 = 10 con MFA y P2 × I4 = 8 con el límite previsto. Para verificar el último cambio, simulen evidencia de implementación y reevalúen el residual actual.</p></section>'+
  '<section class="card stack"><h2>Criterios y referencias</h2><p>Puntaje = probabilidad × el mayor impacto entre las dimensiones económica, legal, reputacional y de continuidad.</p><p><strong>Probabilidad:</strong> 1 rara, 2 improbable, 3 posible, 4 probable, 5 casi segura. <strong>Impacto:</strong> 1 mínimo, 2 menor, 3 moderado, 4 mayor, 5 severo. El grupo establece un horizonte común y justifica cada estimación.</p><p>Bajo 1–4, medio 5–9, alto 10–16 y crítico 20–25. La escala reproduce el criterio del taller. El umbral se puede ajustar por equipo.</p><ul><li><a href="https://www.iso.org/standard/31000" target="_blank" rel="noopener">ISO 31000:2018</a> · proceso y directrices.</li><li><a href="https://webstore.iec.ch/en/publication/59809" target="_blank" rel="noopener">IEC 31010:2019</a> · técnicas de evaluación.</li><li><a href="https://www.gartner.com/reviews/market/integrated-risk-management" target="_blank" rel="noopener">Gartner Peer Insights</a> · valoraciones de usuarios.</li><li><a href="https://www.logicgate.ai/platform/applications/operational-risk-management-application/" target="_blank" rel="noopener">LogicGate</a> · evaluación de riesgos y controles.</li><li><a href="https://riskonnect.com/erm-software/" target="_blank" rel="noopener">Riskonnect</a> · mapas de calor y seguimiento.</li></ul></section></div>';
 }
 function render(){
@@ -101,6 +97,7 @@ function render(){
  $('team').innerHTML=options(data.teams.map(x=>[x.id,x.name]),t.id);
  $('nav').innerHTML=tabs.map((name,i)=>button(name,'tab',attr('index',i)+' aria-current="'+(i===tab)+'"')).join('');
  $('main').innerHTML=[panel,processPage,inventory,guide][tab](t);
+ displayOnline();
 }
 function field(name,label,value='',opts={}){
  const {required=false,type='text',choices,placeholder='',full=false}=opts;
@@ -116,9 +113,11 @@ function valuation(r,k,title,help){
 }
 function open(kind,record={}){
  const t=current(); edit={kind,record};
- $('remove').hidden=!record.id||!['process','risk'].includes(kind);
- $('dialogTitle').textContent={team:'Crear equipo',process:record.id?'Editar proceso':'Nuevo proceso',risk:record.id?'Ficha de riesgo':'Nuevo riesgo',criteria:'Umbral del equipo'}[kind];
- if(kind==='team')$('fields').innerHTML=field('name','Nombre del equipo','',{required:true,placeholder:'Ej. Grupo 2 · Servicios'})+field('sample','Punto de partida','empty',{choices:[['empty','En blanco'],['case','Copiar el caso de pagos']]});
+ clearEditorError();
+ $('submit').hidden=!canEdit();
+ $('submit').disabled=false;
+ $('remove').hidden=!canEdit()||!record.id||!['process','risk'].includes(kind);
+ $('dialogTitle').textContent={process:record.id?'Editar proceso':'Nuevo proceso',risk:record.id?'Ficha de riesgo':'Nuevo riesgo',criteria:'Umbral del equipo'}[kind];
  if(kind==='criteria')$('fields').innerHTML='<p>Los puntajes superiores al umbral se muestran en las prioridades del panel.</p>'+field('threshold','Umbral didáctico',t.threshold,{choices:Array.from({length:25},(_,i)=>[i+1,i+1])});
  if(kind==='process')$('fields').innerHTML=grid([['area','Área'],['name','Nombre del proceso'],['owner','Responsable'],['objective','Objetivo'],['scope','Alcance y contexto'],['activities','Actividades clave'],['inputs','Entradas'],['outputs','Salidas'],['systems','Tecnologías y dependencias'],['rules','Normativa o procedimientos']].map(([k,l],i)=>field(k,l,record[k],{required:i<5,type:i>=3?'area':'text',full:[3,4,5].includes(i)})).join(''));
  if(kind==='risk'){
@@ -138,6 +137,7 @@ function open(kind,record={}){
   valuation(r,...stages[2]);
   updateScores();
  }
+ if (!canEdit()) $('fields').querySelectorAll('input,select,textarea').forEach(el=>el.disabled=true);
  $('dialog').showModal();
  $('dialog').scrollTop=0;
 }
@@ -165,8 +165,9 @@ function validateRisk(r){
 }
 function announce(message){$('status').textContent=message;}
 $('editor').addEventListener('input',event=>{event.target.setCustomValidity?.('');if(edit?.kind==='risk')updateScores();});
-$('editor').addEventListener('submit',e=>{
+$('editor').addEventListener('submit',async e=>{
  e.preventDefault();
+ if (!canEdit()||busy||syncInProgress) return;
  const r=formData(),{kind,record}=edit,t=current();
  for(const element of $('editor').querySelectorAll('[required]')){
   if(!element.value.trim()){element.setCustomValidity('Completa este campo.');element.reportValidity();return;}
@@ -175,33 +176,31 @@ $('editor').addEventListener('submit',e=>{
   const issue=validateRisk(r);
   if(issue){const el=$(issue[0]);el.setCustomValidity(issue[1]);el.reportValidity();return;}
  }
- if(kind==='team'){const t=team(r.name,r.sample==='case');data.teams.push(t);switchTeam(t.id);}
- else if(kind==='criteria')t.threshold=Number(r.threshold);
+ const candidate=structuredClone(t);
+ if(kind==='criteria')candidate.threshold=Number(r.threshold);
  else{
-  const list=kind==='process'?t.processes:t.risks;
-  if(record.id)Object.assign(record,r);else list.push({...r,id:id()});
-  tab=kind==='process'?1:2;resetFilters();
+  const list=kind==='process'?candidate.processes:candidate.risks;
+  if(record.id)Object.assign(list.find(item=>item.id===record.id),r);else list.push({...r,id:id()});
  }
- $('dialog').close();persist();render();
+ if(!await saveOnline(candidate))return;
+ if(kind!=='criteria'){tab=kind==='process'?1:2;resetFilters();}
+ $('dialog').close();render();
 });
 function resetFilters(){filters={query:'',process:'',level:'',cell:''};}
 function switchTeam(value){data.active=value;tab=0;stage='res';resetFilters();}
-$('team').onchange=e=>{switchTeam(e.target.value);persist('Equipo activo cambiado.');render();};
-$('newTeam').onclick=()=>open('team');
-$('close').onclick=$('cancel').onclick=()=>$('dialog').close();
-$('remove').onclick=()=>{
+$('team').onchange=e=>{switchTeam(e.target.value);render();};
+
+$('close').onclick=$('cancel').onclick=()=>{if(!busy)$('dialog').close();};
+$('remove').onclick=async ()=>{
+ if(!canEdit()||busy||syncInProgress)return;
  const {record,kind}=edit,t=current();
  if(kind==='process'&&t.risks.some(r=>r.process===record.id)){alert('El proceso tiene riesgos asociados. Reasígnalos antes de eliminarlo.');return;}
  if(!confirm('¿Eliminar este registro del equipo?'))return;
- const list=kind==='process'?'processes':'risks';t[list]=t[list].filter(r=>r.id!==record.id);
- $('dialog').close();persist('Registro eliminado.');render();
+ const candidate=structuredClone(t), list=kind==='process'?'processes':'risks';
+ candidate[list]=candidate[list].filter(r=>r.id!==record.id);
+ if(!await saveOnline(candidate))return;
+ $('dialog').close();render();
 };
-function exportTeam(t){
- const blob=new Blob([JSON.stringify({format:key,team:t},null,2)],{type:'application/json'});
- const url=URL.createObjectURL(blob),a=document.createElement('a');
- a.href=url;a.download='Riesgos_'+t.name.replace(/[^\p{L}\p{N}]+/gu,'_')+'.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
- announce('Ejercicio exportado.');
-}
 function validImport(t){
  const hasText=(r,keys)=>keys.every(k=>typeof r?.[k]==='string'&&r[k].trim());
  if(!hasText(t,['name'])||!Number.isInteger(t.threshold)||t.threshold<1||t.threshold>25||!Array.isArray(t.processes)||!Array.isArray(t.risks))return false;
@@ -211,30 +210,16 @@ function validImport(t){
  t.risks.every(r=>hasText(r,['id','process','title','factor','owner','cause','event','effect'])&&ids.has(r.process)&&
  stages.every(([k])=>[k+'P',...dims.map((_,i)=>k+i)].every(f=>[undefined,'',1,2,3,4,5,'1','2','3','4','5'].includes(r[f]))));
 }
-$('file').onchange=async e=>{
- const input=e.target,file=input.files[0];if(!file)return;
- try{
-  if(file.size>5_000_000)throw Error();
-  const incoming=JSON.parse(await file.text());
-  if(incoming.format!==key||!validImport(incoming.team))throw Error();
-  const t=incoming.team;t.id=id();
-  if(data.teams.some(x=>x.name===t.name)){const base=t.name;let n=2;while(data.teams.some(x=>x.name===base+' ('+n+')'))n++;t.name=base+' ('+n+')';}
-  data.teams.push(t);switchTeam(t.id);persist('Ejercicio importado.');render();
- }catch{alert('El archivo no es un ejercicio válido exportado por el demo.');}
- finally{input.value='';}
-};
 document.addEventListener('click',e=>{
  const b=e.target.closest('[data-action]');if(!b)return;
  const t=current(),d=b.dataset;
  switch(d.action){
   case 'tab':tab=Number(d.index);if(tab!==2)resetFilters();render();break;
-  case 'addProcess':open('process');break;
-  case 'addRisk':if(t.processes.length)open('risk');else{tab=1;render();open('process');announce('Primero registra el proceso al que pertenece el riesgo.');}break;
+  case 'addProcess':if(!canEdit())break;open('process');break;
+  case 'addRisk':if(!canEdit())break;if(t.processes.length)open('risk');else{tab=1;render();open('process');announce('Primero registra el proceso al que pertenece el riesgo.');}break;
   case 'process':open('process',t.processes.find(x=>x.id===d.id));break;
   case 'risk':open('risk',t.risks.find(x=>x.id===d.id));break;
-  case 'criteria':open('criteria');break;
-  case 'export':exportTeam(t);break;
-  case 'import':$('file').click();break;
+  case 'criteria':if(!canEdit())break;open('criteria');break;
   case 'cell':resetFilters();filters.cell=d.cell;tab=2;render();break;
   case 'clearCell':filters.cell='';render();break;
  }
@@ -245,5 +230,11 @@ $('main').addEventListener('change',e=>{
  if(el.id==='processFilter'||el.id==='levelFilter'){filters[el.id==='processFilter'?'process':'level']=el.value;$('riskRows').innerHTML=riskRows(current());}
 });
 $('main').addEventListener('input',e=>{if(e.target.id==='search'){filters.query=e.target.value;$('riskRows').innerHTML=riskRows(current());}});
+</script>
+<script src="colaboracion.js"></script>
+<script>
+data={active:sample.id,teams:[sample]};
 render();
+if(invite)refreshOnline();
+setInterval(()=>refreshOnline(),5000);
 </script></body></html>
